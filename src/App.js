@@ -18,8 +18,8 @@ import Followers from "./components/Followers";
 import Test from './components/Test';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { useForm } from "react-hook-form";
-require('dotenv').config();
 import axios from 'axios';
+require('dotenv').config();
 
 const ShuffleButton = withStyles({
     root: {
@@ -45,7 +45,7 @@ function App(props) {
         <div>
             <Router>
                 <SwitchDom>
-                    <Route exact path={"/spotify"}>
+                    <Route exact path={"/"}>
                         <div className={"column"}>
 
 
